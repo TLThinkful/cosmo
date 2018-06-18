@@ -1,0 +1,20 @@
+Unit 3 Lesson 2.6 Drill
+
+A diagnostic test has a 98% probability of giving a positive result when applied to a person suffering from Thripshaw's Disease, and 10% probability of giving a (false) positive when applied to a non-sufferer. It is estimated that 0.5 % of the population are sufferers. Suppose that the test is now administered to a person whose disease status is unknown. Calculate the probability that the test will:
+
+1. Be positive
+
+Answer: 0.98*0.005 + 0.10*0.995 = 0.1044
+
+2. Correctly diagnose a sufferer of Thripshaw's
+
+Answer: 0.98
+
+3. Correctly identify a non-sufferer of Thripshaw's
+
+Answer: 0.90
+
+4. Misclassify the person. 
+
+My Original Answer: 0.02*0.005 + 0.90*0.995 = 0.8956
+Correct Answer is: 1-(.98*.005 + .9*.995)=.0996 ?? Ask Dave how to approach this.
