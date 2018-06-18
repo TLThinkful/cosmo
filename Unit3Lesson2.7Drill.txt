@@ -1,0 +1,16 @@
+Unit 3 Lesson 2.7 Drill
+
+In each of the scenarios, find possible shortcomings of the theoretical or actual data sources to answer the given question. What could be done to either adjust the analysis or reframe the question so that you can answer it accurately?
+
+Data Source: Amsterdam availability data scraped from AirBnB on December 24th. Question: What are the popular neighborhoods in Amsterdam?
+
+Answer: Data may not represent an avg day or throughout the month/year. Since Dec 24th is Christmas Eve, there could be many visitors in town staying at AirBnB's going to certain popular tourist areas and locations with Christmas specific themes. I would adjust the analysis by extending the days or months of data for a larger sample or exclude data on days that are major holidays.
+
+Data Source: Mental health services use on September 12, 2001 in San Francisco, CA and New York City, NY. Question: How do patterns of mental health service use vary between cities?
+
+Answer: First observation is that this is the day after 9/11 terrorist attacks so mental health services may have been more active. Also the 2 are big cities, and may have patterns that reflect bigger cities. I would adjust the analysis to earlier months or to more cities. Or the question would be reframed to be an analysis of the pattern right after the 9/11 incident and reflected 2 specific large cities only.
+
+Data Source: Armenian Pub Survey. Question: What are the most common reasons Armenians visit local pubs?
+
+Answer: I looked at the solution for this one since I could not figure out. It's not that obvious. The Surver description does mention this was organized by university students. When looking at the data it appears Ocupation field mostly has "Student", based on the first 100 rows.
+
