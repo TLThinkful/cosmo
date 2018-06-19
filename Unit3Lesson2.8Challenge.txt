@@ -1,0 +1,9 @@
+Unit 3 Lesson 2.8 Challenge
+
+It was intuitive for me to not change doors thinking my initial probability was 1/3 of choosing the door with the car and that wouldn't change even if the host opens door #3 revealing it goat.
+
+I proceded to read the wiki details and see that the mathematical result is counterintuitive and supports the conditional probability as described by Bayes' Rule. It seems to make sense that after being shown door #3 with the goat, there's new information and the probability of selecting a car now changes for door 1 vs door 2.
+
+Also I think the table shown in the Simple solutions section of the wiki page is convincing...
+"The solution presented by vos Savant (1990b) in Parade shows the three possible arrangements of one car and two goats behind three doors and the result of staying or switching after initially picking door 1 in each case:" shows "A player who stays with the initial choice wins in only one out of three of these equally likely possibilities, while a player who switches wins in two out of three"
+
