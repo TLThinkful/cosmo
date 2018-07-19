@@ -1,0 +1,23 @@
+1.	You work at an e-commerce company that sells three goods: widgets, doodads, and fizzbangs. The head of advertising asks you which they should feature in their new advertising campaign. You have data on individual visitors' sessions (activity on a website, pageviews, and purchases), as well as whether or not those users converted from an advertisement for that session. You also have the cost and price information for the goods.
+
+Answer:
+I would leverage all three data sets to determine which product to feature.
+I would look at the visitor’s activity on the web site to see which product out of the three the looked at, how much time they spent on the pages. I would look for the product that visitors spent the most time looking at but did not make a purchase.
+I would then look at the pageviews data to see how many hits there were to the products pages directed from another page. I would look for the product that had the most visits to the product page.
+I would then see the converted data to find out which of the three products historically had the most purchases resulting from conversions from an advertisement.
+I would recommend to the head of advertising to feature the product that had the most combined amount of all three data sets.
+
+2.	You work at a web design company that offers to build websites for clients. Signups have slowed, and you are tasked with finding out why. The onboarding funnel has three steps: email and password signup, plan choice, and payment. On a user level you have information on what steps they have completed as well as timestamps for all of those events for the past 3 years. You also have information on marketing spend on a weekly level.
+Answer:
+I would look at several things here with the data available.
+I would like to see if certain marketing spend during specific timeframes and which type of marketing correlated to the periods that had the most user sign ups. I would then see if during the periods of slow signups if these types of marketing my have decreased.
+I would then see which step of the funnel process users stopped at the most. This may tell me if the signup process may take too much time resulting to users not proceeding or if they stop at plan choices it could be that they don’t understand the plans or non of the plans are attractive. If they quit just on email and password signup, I would see if we can make these steps easier, more intuitive, and less time consuming. If they stop at plan choice, I would see if we can target marketing on the various plans to make their offers more clear and more attractive.
+If users stopped at payment, I would take a look at the pricing model to see if the prices are competitive and whether a factor in making users loose interest at the end of the steps. 
+
+3.	You work at a hotel website and currently the website ranks search results by price. For simplicity's sake, let's say it's a website for one city with 100 hotels. You are tasked with proposing a better ranking system. You have session information, price information for the hotels, and whether each hotel is currently available.
+Answer:
+I would propose rankings on popularity and then availability. I would look at the session information to determine popularity based on higher user hits on certain hotels and have them show up higher in rank if there’s availability  
+
+4.	You work at a social network, and the management is worried about churn (users stopping using the product). You are tasked with finding out if their churn is atypical. You have three years of data for users with an entry for every time they've logged in, including the timestamp and length of session.
+Answer:
+I would look at the user profile information, if the profile data has certain characteristics about each user. I would then look at the three years of data for logged in and length of session information to see which users have started to not log in for the again after one month of their last login. I will see if these users fit a certain set of characteristics based on their user profiles.
