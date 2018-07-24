@@ -1,0 +1,37 @@
+select 
+     max(MaxTemperatureF)
+from
+     weather
+
+select 
+     ZIP
+from 
+     weather
+where
+     MaxTemperatureF = 134
+	 
+
+
+select
+     start_station, count(*)
+from 
+     trips
+group by start_station
+
+select
+   min(duration) 
+from trips
+
+select 
+     *
+from 
+     trips
+where
+     duration = 60
+     
+
+select
+     end_station, AVG(duration) 
+from 
+     trips
+group by end_station

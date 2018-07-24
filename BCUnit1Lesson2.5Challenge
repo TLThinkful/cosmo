@@ -1,0 +1,54 @@
+1. What's the most expensive listing? What else can you tell me about the listing?
+
+Answer: The following is the most expensive listing
+Listing ID is: 18504155
+Description is: Brookwood; In Asheville with a Hot Tub! 3 King beds with private baths! LUXURY
+Room Type: Entire home/apt
+Neighborhood:  28804
+Price: 8000
+
+Here’s the query to find the answer:
+select * 
+from listings 
+order by price desc
+LIMIT 1
+
+
+
+2. What neighborhoods seem to be the most popular?
+
+Answer: The top 3 most booked neighborhoods in Ashville NC are "28806", "28801", and "28803"
+
+Here’s the query to find the answer:
+select neighbourhood, count(*) 
+from listings
+join calendar
+on id = listing_id
+where available = 'f'
+group by  neighbourhood
+order by 2 desc
+
+
+3. What time of year is the cheapest time to go to your city? What about the busiest?
+
+Answer: The cheapest months are the following and in the order listed: June, July, May, and August. I would say the cheapest time of the year to go to Ashville NC would be late Spring and Summer
+The busiest time of the year is the following and in the order listed Mar, Apr, Jan, Dec, and Feb. I would say the busiest time of the year to go to Ashville NC would be during the Winter
+
+Here’s the query to find the answer to the first part of the question:
+select strftime('%m', c.date) as Month, avg(l.price) as AvgPrice
+from calendar c
+join listings l
+on c.listing_id = l.id
+where c.available = 't'
+group by Month
+order by AvgPrice
+
+Here’s the query to find the answer to the second part of the question:
+select strftime('%m', c.date) as Month, count(*)
+from calendar c
+join listings l
+on c.listing_id = l.id
+where c.available = 'f'
+group by Month
+order by 2 desc
+
